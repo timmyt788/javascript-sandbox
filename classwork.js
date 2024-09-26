@@ -47,3 +47,68 @@ if (userChoice === computerChoice) {
 } else {
   console.log("Invalid entry, try again");
 }
+
+// Functions
+// fucntions are used to run snippets of code
+
+// let DolphinsScore= {96, 108, 89};
+// let PandasScore = {88, 91, 110};
+
+const dolphinScore1 = 97;
+const dolphinScore2 = 112;
+const dolphinScore3 = 101;
+const pandaScore1 = 109;
+const pandaScore2 = 95;
+const pandaScore3 = 123;
+
+const totalDolphinScore = dolphinScore1 + dolphinScore2 + dolphinScore3;
+const totalPandaScore = pandaScore1 + pandaScore2 + pandaScore3;
+
+const averageDolphinScore = totalDolphinScore / 3;
+const averagePandaScore = totalPandaScore / 3;
+
+console.log("Average Dolphin Score is $ {averageDolpinScore}");
+console.log("Average Panda Score is $  {averagePandaScore}");
+
+if (averageDolphinScore > averagePandaScore) {
+  console.log("Dolphins wins");
+} else if (averageDolphinScore < averagePandaScore) {
+  console.log("Panda wins");
+} else {
+  console.log("this is a tie");
+}
+
+// if (averageDolphinScore >= 100 && averageDolphinScore > averagePandaScore) {
+//   console.log("Dolphins wins");
+// } else if
+
+if (averageDolphinScore > averagePandaScore && averageDolphinScore >= 100) {
+  console.log("Dolphins wins");
+} else if (
+  averageDolphinScore < averagePandaScore &&
+  averagePandaScore >= 100
+) {
+  console.log("Panda wins");
+}
+{
+  console.log("No teams wins");
+}
+///
+
+if (averageDolphinScore > averagePandaScore && averageDolphinScore >= 100) {
+  console.log("Dolphins wins");
+} else if (
+  averageDolphinScore < averagePandaScore &&
+  averagePandaScore >= 100
+) {
+  console.log("Panda wins");
+} else if (
+  averageDolphinScore === averagePandaScore &&
+  averageDolphinScore >= 100 &&
+  averagePandaScore >= 100
+) {
+  console.log("this is a draw");
+}
+{
+  console.log("No teams wins");
+}
