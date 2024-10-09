@@ -31,7 +31,7 @@ console.log(students);
 // conver arrays to a string(toString, john)
 console.log(students.toString());
 conso…
-[10:25 AM, 10/7/2024] Zeke T🫡: // arrays = complex and types
+// arrays = complex and types
 // element1, element2
 const mixedAr = [9, "str", true, 65, 9.8, null, [90, false]];
 
@@ -62,11 +62,7 @@ console.log(students);
 
 // conver arrays to a string(toString, john)
 console.log(students.toString());
-conso…
-[5:35 AM, 10/8/2024] Zeke T🫡: https://calmbear-project-by-ezekiel.vercel.app
-[5:43 AM, 10/8/2024] RR: 🔥🔥🔥
-[5:45 AM, 10/8/2024] Zeke T🫡: Ajeh sehh
-[9:36 AM, 10/8/2024] Zeke T🫡: // object
+conso // object
 const person1 = ["ade", "wale", 67, "google", true];
 // {key :  value, key2: value2}
 // key and value pairs are called object properties
